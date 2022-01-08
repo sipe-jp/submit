@@ -9,5 +9,5 @@ Python 3.9.1
 
 #ファイル構造
 プログラム本体はlog_analytics.pyのみ
-test_filesにはテストデータ４つ(sample,test.txt)と出力結果のoutput.txtが入っています。
+test_fileにはテストデータ４つ(sample,test.txt)と出力結果のoutput.txtが入っています。
 output.txtの出力結果は、コンソールから張り付けたものになります。
