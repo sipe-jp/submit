@@ -1,8 +1,8 @@
-# プログラム
-開発環境
-windows10
-SublimeText
-Python 3.9.1
+# プログラムについて
+開発環境<br>
+windows10<br>
+SublimeText<br>
+Python 3.9.1<br>
 
 私の環境での動作確認は致しました。しかし、環境によってはエラーが出る可能性があります。ご承知ください。
 ユーザーによる変更は変数N,t,mとなります。
@@ -16,11 +16,11 @@ Python 3.9.1
 mainでは、それぞれの状態ごとに問題の通り出力する<br>
 最後まで復帰していないものや過負荷なものを出力する<br>
 
-#ファイル構造
+#ファイル構造<br>
 プログラム本体はlog_analytics.pyのみ
 test_fileにはテストデータ４つ(sample,test.txt)と出力結果のoutput.txtが入っています。
 output.txtの出力結果は、コンソールから張り付けたものになります。
 
-#注意
+#注意<br>
 log_analytics.pyのpath=path+"/"+sys.argv[0]ではなくlog_analytics.pyのpath=path+"/"+sys.argv[1]です。
 間違えていました、ここを変更しないとコンソールでエラーが出ます。
